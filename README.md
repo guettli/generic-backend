@@ -45,3 +45,7 @@ ORM gets used almost everywhere
 The backend is generic. Like people stopped coding custom databases they stopped coding custom backends.
 
 You define models and permissions and views. But no logic. See [imperative vs declarative](https://www.google.com/search?q=imperative+vs+declarative)
+
+# Conclusion
+
+Generic and well maintained open source tools gain traction. This reduces the custom code size.
