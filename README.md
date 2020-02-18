@@ -16,6 +16,8 @@ Thin client. The client recevied HTML from the backend.
 
 Custom database and custom backend
 
+No [Object-relational mapping](https://en.wikipedia.org/wiki/Object-relational_mapping) gets used.
+
 # Past: 2005..2015
 
 The client was thin. The client recevied HTML from the backend.
@@ -24,13 +26,19 @@ People realized that coding an own/custom database makes no sense. People use Po
 
 Still lot of backend code.
 
+Most people still use SQL directly. Only few people use ORM.
+
+
 # Current: 2015..2025
 
 The client is heavy: React or Angular
 
 The backend is simplified. For example [Django REST framework](https://www.django-rest-framework.org/) gets used.
 
+
 Less backend coding gets done.
+
+ORM gets used almost everywhere
 
 # Future: 2025..
 
