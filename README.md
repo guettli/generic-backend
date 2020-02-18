@@ -52,6 +52,8 @@ No more imperative permission handling. Set operations (for example SQL) get use
 
 Related: [Do permission checking via SQL](https://github.com/guettli/programming-guidelines#do-permission-checking-via-sql)
 
-# Conclusion
+# Generic Backend Vision: No more coding, just config
 
-Generic and well maintained open source tools gain traction. This reduces the custom code size.
+Generic and well maintained open source tools gain traction. This reduces the custom code size in the backend to zero. 
+
+Left is the definition of the data schemas and definition of permissions. That's declarative, not code.
