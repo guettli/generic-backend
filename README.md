@@ -40,11 +40,17 @@ Less backend coding gets done.
 
 ORM gets used almost everywhere
 
+Permission handling still gets done in the code with lines like "if user.is_superuser then ... else ..." (Imperative)
+
 # Future: 2025..
 
 The backend is generic. Like people stopped coding custom databases they stopped coding custom backends.
 
 You define models and permissions and views. But no logic. See [imperative vs declarative](https://www.google.com/search?q=imperative+vs+declarative)
+
+No more imperative permission handling. Set operations (for example SQL) get used to define permissions.
+
+Related: [Do permission checking via SQL](https://github.com/guettli/programming-guidelines#do-permission-checking-via-sql)
 
 # Conclusion
 
