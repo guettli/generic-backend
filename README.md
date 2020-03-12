@@ -13,6 +13,11 @@ You will [declare](https://en.wikipedia.org/wiki/Declarative_programming):
 
 After the schemas are definied the generic backend will provide you with the interface which is currently en vogue. Either ReST, GraphQL or Protocol-Buffers.
 
+Additional features:
+
+* Automatically created Admin-Interface (like [Django Admin](https://docs.djangoproject.com/en/3.0/ref/contrib/admin/))
+* Missing database indexes get detect automatically
+* History of changes: You can define which entities/tables should get versioned. 
 
 # History 
 
