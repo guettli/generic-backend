@@ -1,16 +1,24 @@
 # Generic Backend Vision: No more coding, just config
 
-Request: Client --> Backend --> DB
+Sooner or later the generic backend vision will become reality. No more custom coding in the backend.
 
-Response: Client <-- Backend <-- DB
+No more if-ing and loop-ing. No more [imperative programming](https://en.wikipedia.org/wiki/Imperative_programming) in the backend.
 
-Client: Web-Browser or other http-client.
+But if you don't need to write "if ... else ..." and "for .. in ... do ..." what do you write?
 
-Backend: A service (Python, Java, Node.js, ...)
+You will [declare](https://en.wikipedia.org/wiki/Declarative_programming):
 
-DB: Database (PostgreSQL, MongoDB, ...)
+* data schema
+* permission schema
 
-# Stone-Age: ..2005
+After the schemas are definied the generic backend will provide you with the interface which is currently en vogue. Either ReST, GraphQL or Protocol-Buffers.
+
+
+# History 
+
+I wanted to provide some numbers (years) here. Of course this is not 100% correct, since it is a slow transition from one state to the next.
+
+## "Stone-Age": ..2005
 
 Thin client. The client recevied HTML from the backend.
 
@@ -18,7 +26,7 @@ Custom database and custom backend
 
 No [Object-relational mapping](https://en.wikipedia.org/wiki/Object-relational_mapping) gets used.
 
-# Past: 2005..2015
+## Past: 2005..2015
 
 The client was thin. The client recevied HTML from the backend.
 
@@ -29,7 +37,7 @@ Still lot of backend code.
 Most people still use SQL directly. Only few people use ORM.
 
 
-# Current: 2015..2025
+## Current: 2015..2025
 
 The client is heavy: React or Angular
 
@@ -42,7 +50,7 @@ ORM gets used almost everywhere
 
 Permission handling still gets done in the code with lines like "if user.is_superuser then ... else ..." (Imperative)
 
-# Future: 2025..
+## Future: 2025..
 
 The backend is generic. Like people stopped coding custom databases they stopped coding custom backends.
 
@@ -51,9 +59,3 @@ You define models and permissions and views. But no logic. See [imperative vs de
 No more imperative permission handling. Set operations (for example SQL) get used to define permissions.
 
 Related: [Do permission checking via SQL](https://github.com/guettli/programming-guidelines#do-permission-checking-via-sql)
-
-# Generic Backend Vision: No more coding, just config
-
-Generic and well maintained open source tools gain traction. This reduces the custom code size in the backend to zero. 
-
-Left is the definition of the data schemas and definition of permissions. That's declarative, not code.
