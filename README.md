@@ -60,7 +60,7 @@ ORM gets used almost everywhere
 
 Permission handling still gets done in the code with lines like "if user.is_superuser then ... else ..." (Imperative)
 
-Example: The django admin provides a super simple way to get usable interface to edit data in a relational database. But up to now, "Row-Level Security" is not supported by it.
+Example: The django admin provides a super simple way to get usable interface to edit data in a relational database. But up to now, "Row-Level Security" is not supported by it. I am unsure where it will get implemented: Either in the DB (for example in PostgreSQL) or in the Middleware (for example Django).
 
 ## Future: 2025..
 
