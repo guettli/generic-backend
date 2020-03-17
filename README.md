@@ -71,3 +71,11 @@ You **define** models and permissions and views. But no logic. See [imperative v
 No more imperative permission handling. Set operations (for example SQL) get used to define them.
 
 Related: [Do permission checking via SQL](https://github.com/guettli/programming-guidelines#do-permission-checking-via-sql)
+
+# Next?
+
+You are waiting for source code? From me? Sorry, I won't write this cool generic backend thing.
+
+This is just a README.
+
+If you want it, then code it.
