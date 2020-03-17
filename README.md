@@ -27,9 +27,13 @@ I wanted to provide some numbers (years) here. Of course this is not 100% correc
 
 Thin client. The client recevied HTML from the backend.
 
-Custom database and custom backend
+Custom database and custom backend.
 
-No [Object-relational mapping](https://en.wikipedia.org/wiki/Object-relational_mapping) gets used.
+PostgreSQL and MySQL were not wide spread like today. A lot developers time was spent writing
+some kind of database or storage engine. Some on top of [Berkeley DB](https://en.wikipedia.org/wiki/Berkeley_DB),
+some on top of custom binara data formats stored in files.
+
+No [Object-relational mapping](https://en.wikipedia.org/wiki/Object-relational_mapping) got used.
 
 ## Past: 2005..2015
 
@@ -37,7 +41,7 @@ The client was thin. The client recevied HTML from the backend.
 
 People realized that coding an own/custom database makes no sense. People use PostgreSQL, MySQL, MongoDB, ...
 
-Still lot of backend code.
+Still lot of backend code got done
 
 Most people still use SQL directly. Only few people use ORM.
 
@@ -48,6 +52,7 @@ The client is heavy: React or Angular
 
 The backend is simplified. For example [Django REST framework](https://www.django-rest-framework.org/) gets used.
 
+Most developers develop in high level languages. Only very few experts improve the DB core in PostgreSQL, MySQL, ...
 
 Less backend coding gets done.
 
@@ -59,8 +64,8 @@ Permission handling still gets done in the code with lines like "if user.is_supe
 
 The backend is generic. Like people stopped coding custom databases they stopped coding custom backends.
 
-You define models and permissions and views. But no logic. See [imperative vs declarative](https://www.google.com/search?q=imperative+vs+declarative)
+You **define** models and permissions and views. But no logic. See [imperative vs declarative](https://www.google.com/search?q=imperative+vs+declarative)
 
-No more imperative permission handling. Set operations (for example SQL) get used to define permissions.
+No more imperative permission handling. Set operations (for example SQL) get used to define them.
 
 Related: [Do permission checking via SQL](https://github.com/guettli/programming-guidelines#do-permission-checking-via-sql)
