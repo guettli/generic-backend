@@ -60,6 +60,8 @@ ORM gets used almost everywhere
 
 Permission handling still gets done in the code with lines like "if user.is_superuser then ... else ..." (Imperative)
 
+Example: The django admin provides a super simple way to get usable interface to edit data in a relational database. But up to now, "Row-Level Security" is not supported by it.
+
 ## Future: 2025..
 
 The backend is generic. Like people stopped coding custom databases they stopped coding custom backends.
