@@ -64,7 +64,11 @@ Example: The django admin provides a super simple way to get usable interface to
 
 ## Future: 2025..
 
-The backend is generic. Like people stopped coding custom databases they stopped coding custom backends.
+The [Bandwagen Effect](https://en.wikipedia.org/wiki/Bandwagon_effect) will choose some winners and some will loose.
+
+If you compare this to version control systems: SVN, bazar, mercurial ... all these alternatives to git have gone. Or like the browser wars. I am so happy, since I don't need a standard and several implementations. One open source implementation (git, Chrome, Linux, ...) is enough.
+
+In 2025 the backend is generic. Like people stopped coding custom databases, they stopped coding custom backends.
 
 You **define** models and permissions and views. But no logic. See [imperative vs declarative](https://www.google.com/search?q=imperative+vs+declarative)
 
