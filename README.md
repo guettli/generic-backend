@@ -48,7 +48,7 @@ Most people still use SQL directly. Only few people use ORM.
 
 ## Current: 2015..2025
 
-There is a simple CRUD interface out-of-the box (like django admin), or the backend only provides a Rest-API and the client is heavy: React or Angular
+There is a simple [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) interface out-of-the box (like django admin), or the backend only provides a Rest-API and the client is heavy: React or Angular
 
 The backend is simplified. For example [Django REST framework](https://www.django-rest-framework.org/) gets used.
 
