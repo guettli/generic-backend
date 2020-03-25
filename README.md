@@ -48,7 +48,7 @@ Most people still use SQL directly. Only few people use ORM.
 
 ## Current: 2015..2025
 
-The client is heavy: React or Angular
+There is a simple CRUD interface out-of-the box (like django admin), or the backend only provides a Rest-API and the client is heavy: React or Angular
 
 The backend is simplified. For example [Django REST framework](https://www.django-rest-framework.org/) gets used.
 
@@ -63,6 +63,8 @@ Permission handling still gets done in the code with lines like "if user.is_supe
 Example: The django admin provides a super simple way to get usable interface to edit data in a relational database. But up to now, "Row-Level Security" is not supported by it. I am unsure where it will get implemented: Either in the DB (for example in PostgreSQL) or in the Middleware (for example Django).
 
 ## Future: 2025..
+
+The simple [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) interface (like django admin) which you get without coding is very usable. You only need a custom interface to provide a pretty UX.
 
 The [Bandwagen Effect](https://en.wikipedia.org/wiki/Bandwagon_effect) will choose some winners and some will loose.
 
