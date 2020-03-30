@@ -78,6 +78,17 @@ No more imperative permission handling. Set operations (for example SQL) get use
 
 Related: [Do permission checking via SQL](https://github.com/guettli/programming-guidelines#do-permission-checking-via-sql)
 
+# Related: Headless CMS
+
+[Headless CMS](https://en.wikipedia.org/wiki/Headless_content_management_system) 
+
+> A headless content management system, or headless CMS, is a back-end only content management system (CMS) built from the 
+> ground up as a content repository that makes content accessible via a RESTful API for display on any device.
+> 
+> The term “headless” comes from the concept of chopping the “head” (the front end, i.e. the website) off the “body” (the 
+> back end, i.e. the content repository).
+
+
 # Next?
 
 You are waiting for source code? From me? Sorry, I won't write this cool generic backend thing.
