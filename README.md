@@ -90,7 +90,7 @@ All this without a single "if-else", loop or writing methods:
 * You can configure the authentication method
 * If you need it, the changes to the data gets recorded in a history. You can see which changes were done and by whom.
 * You have an easy to use ORM for writing custom backend code.
-* Customers can add new columns via GUI ([EAV (Entity-Attribute-Value Model)](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model)
+* Customers can add new columns via GUI ([EAV (Entity-Attribute-Value Model)](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model))
 
 # Related: Headless CMS
 
