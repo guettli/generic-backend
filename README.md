@@ -92,6 +92,19 @@ All this without a single "if-else", loop or writing methods:
 * You have an easy to use ORM for writing custom backend code.
 * Customers can add new columns via GUI ([EAV (Entity-Attribute-Value Model)](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model))
 
+# List of open source systems
+
+* [PostgREST](http://postgrest.org/)
+* [Django Rest Framework](https://www.django-rest-framework.org/)
+
+# List of commercial systems
+
+* [SAP Netweaver](https://en.wikipedia.org/wiki/SAP_NetWeaver)
+
+# Specs
+
+* [OASIS Content Management Interoperability Services](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cmis)
+
 # Related: Headless CMS
 
 [Headless CMS](https://en.wikipedia.org/wiki/Headless_content_management_system) 
