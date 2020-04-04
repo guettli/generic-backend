@@ -1,4 +1,4 @@
-# Generic Backend Vision: No more coding, just config
+# Generic Backend: No more coding, just config
 
 Sooner or later the generic backend vision will become reality. No more custom coding in the backend.
 
