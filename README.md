@@ -1,6 +1,6 @@
 # Generic Backend: No more coding, just config
 
-Sooner or later the generic backend vision will become reality. No more custom coding in the backend.
+Sooner or later the generic backend will become reality. No more custom coding in the backend.
 
 No more if-ing and loop-ing. No more [imperative programming](https://en.wikipedia.org/wiki/Imperative_programming) in the backend.
 
