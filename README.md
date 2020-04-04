@@ -103,7 +103,8 @@ All this without a single "if-else", loop or writing methods:
 
 # Specs
 
-* [OASIS Content Management Interoperability Services](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cmis)
+* [OASIS Content Management Interoperability Services](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cmis) (dead since 2017)
+* [GraphQL](https://graphql.org/)
 
 # Related: Headless CMS
 
