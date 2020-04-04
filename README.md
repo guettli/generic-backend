@@ -83,9 +83,9 @@ Related: [Do permission checking via SQL](https://github.com/guettli/programming
 All this without a single "if-else", loop or writing methods:
 
 * You can define the database models.
-* If you change the database models this schema-migration can get applied to several independant instances of you database.
+* If you change the database models your schema-migration can get applied to several independant database instances.
 * You have a simple admin interface to read, filter, create, update, delete your data. You can create reports on filtered lists without writing code.
-* You get a http API without coding
+* You get a http API without coding and a description of your api (OpenAPI, GraphQL, ...)
 * You can define permissions on row-level (without coding)
 * You can configure the authentication method
 * If you need it, the changes to the data gets recorded in a history. You can see which changes were done and by whom.
