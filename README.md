@@ -105,6 +105,7 @@ All this without a single "if-else", loop or writing methods:
 
 * [OASIS Content Management Interoperability Services](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cmis) (dead since 2017)
 * [GraphQL](https://graphql.org/)
+* [OpenAPI](https://www.openapis.org/)
 
 # Related: Headless CMS
 
