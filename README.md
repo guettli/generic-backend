@@ -103,7 +103,7 @@ All this without a single "if-else", loop or writing methods:
 
 # Specs
 
-* [OASIS Content Management Interoperability Services](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cmis) (dead since 2017)
+* [OASIS Content Management Interoperability Services](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cmis) (The Technical Commitee was closed in 2017 and is no longer active) [CMIS on Wikipedia](https://en.wikipedia.org/wiki/Content_Management_Interoperability_Services) 
 * [GraphQL](https://graphql.org/)
 * [OpenAPI](https://www.openapis.org/)
 * [SQL](https://en.wikipedia.org/wiki/SQL)
