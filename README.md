@@ -118,6 +118,9 @@ All this without a single "if-else", loop or writing methods:
 > The term “headless” comes from the concept of chopping the “head” (the front end, i.e. the website) off the “body” (the 
 > back end, i.e. the content repository).
 
+# Not related: scalability
+
+A generic backend helps to create products fast. This way you can create a [MVP (Minimum viable product)](https://en.wikipedia.org/wiki/Minimum_viable_product) soon and get feedback from customers. It is a very different topic how to make this product survive some thousand simultaneous users.
 
 # Next?
 
