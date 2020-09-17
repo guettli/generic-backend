@@ -96,6 +96,8 @@ All this without a single "if-else", loop or writing methods:
 
 * [PostgREST](http://postgrest.org/)
 * [Django Rest Framework](https://www.django-rest-framework.org/)
+* [Ariadne Python library for implementing
+GraphQL servers](https://ariadnegraphql.org/)
 
 # List of commercial systems
 
