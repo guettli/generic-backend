@@ -120,6 +120,11 @@ GraphQL servers](https://ariadnegraphql.org/)
 > The term “headless” comes from the concept of chopping the “head” (the front end, i.e. the website) off the “body” (the 
 > back end, i.e. the content repository).
 
+# Related: "low code" or "no code"
+
+Up to now this is only a buzzword. Today you can't create a meaningful application without coding. But slowly we are getting there.
+
+
 # Related: BaaS
 
 [BaaS (Backend as a Service)](https://en.wikipedia.org/wiki/Mobile_backend_as_a_service)
