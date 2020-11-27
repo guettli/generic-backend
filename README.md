@@ -98,6 +98,7 @@ All this without a single "if-else", loop or writing methods:
 * [Django Rest Framework](https://www.django-rest-framework.org/)
 * [Ariadne Python library for implementing
 GraphQL servers](https://ariadnegraphql.org/)
+* [postgraphile](https://github.com/graphile/postgraphile)
 
 # List of commercial systems
 
@@ -140,3 +141,8 @@ You are waiting for source code? From me? Sorry, I won't write this cool generic
 This is just a README.
 
 If you want it, then code it.
+
+
+# More
+
+[Thomas WOL: Working out Loud](https://github.com/guettli/wol)
